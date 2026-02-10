@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+
+.persona-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    max-width: 600px;
+    text-align: center;
+}
+
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Makes image circular */
+    object-fit: cover; /* Prevents image stretching */
+    box-shadow: #B22222 0px 1px 5px;
+}
+
+
+
+.column {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Add your own colors below based on your Vibe! */
+h2 { color: #333;}
+h3 { color: #555; border-bottom: 2px solid #ddd; }
+span { font-style: italic;}
+.goals { color: #d97217; } 
+.frustrations { color: #B22222; } 
+.bubble{
+    background-color: #e0e0e0;
+    border-radius: 20px;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    display: inline-block;
+    box-shadow: 3px 5px 3px rgba(0, 0, 0, 0.2);
+}
+.frustrations-list {
+    background-color: #b22222c6;
+}
+.goals-list {
+    background-color: #d97217c6;
+}
