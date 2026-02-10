@@ -38,16 +38,16 @@ img {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    margin-left: -5%;
     gap: 10px;
-    margin-left: 3%;
 }
 
 
 /* Add your own colors below based on your Vibe! */
 h2 { color: #333;}
 span { font-style: italic;}
-.goals { color: #d97217d6;} 
-.frustrations { color: #B22222d6;} 
+.goals { color: #ffffff; text-shadow: 2px 2px 0px black;} 
+.frustrations { color: #ffffff; text-shadow: 2px 2px 0px black;} 
 .bubble{
     background-color: #e0e0e0;
     border-radius: 20px;
@@ -60,7 +60,7 @@ span { font-style: italic;}
 .bubbleH{
     border-radius: 50px;
     margin-bottom: 20px;
-    padding: 20px 10px;
+    padding: auto;
     max-width: 90%;
     box-shadow: 5px 7px 0px black;
 }
